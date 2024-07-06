@@ -5,8 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
-@AllArgsConstructor
+@Data  
+@AllArgsConstructor  // constructor injection, lombok
 @NoArgsConstructor
 @Builder
 public class Product {
