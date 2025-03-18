@@ -44,7 +44,7 @@ public class ProductService {
         return productList.stream()
                 .filter(product -> product.getProductId() == id)
                 .findAny()
-                .orElseThrow(() -> new RuntimeException("product " + id + " not found"));
+                .orElseThrow(() -> new RuntimeException("product belongs to  " + id + " not found"));
     }
 
 
