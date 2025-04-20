@@ -8,7 +8,7 @@ public class SpringSecurityLatestApplication {
 
 	public static void main(String[] args) {
 
-		System.out.println("welcome message");
+		System.out.println("welcome message +++changes");
 		SpringApplication.run(
 
 
